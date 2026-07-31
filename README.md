@@ -79,7 +79,7 @@ mamba env create -f environment.yml
 conda activate cborealis-annotation
 ```
 
-BRAKER and EGAPx are best installed using their project-specific instructions or containers. EGAPx additionally requires Nextflow and a supported container runtime. RepeatMasker, BUSCO, eggNOG-mapper, and DIAMOND require separately downloaded databases.
+BRAKER and EGAPx are best installed using their project-specific environment or containers. EGAPx additionally requires Nextflow and a supported container runtime. RepeatMasker, BUSCO, eggNOG-mapper, and DIAMOND require separately downloaded databases.
 
 ## Configuration
 
@@ -89,15 +89,6 @@ BRAKER and EGAPx are best installed using their project-specific instructions or
 4. Replace them with paths appropriate to the local system or expose them as command-line arguments.
 5. Record the software and database versions actually used in `software_versions.tsv`.
 6. Validate each YAML file before launching a long run.
-
-Useful checks include:
-
-```bash
-bash -n scripts/*.sh
-grep -RInE '/Users/|/home/|/mnt/|/scratch/|/work/' scripts config
-```
-
-The second command identifies likely machine-specific paths; review each match rather than replacing paths automatically.
 
 ## Running the numbered workflow
 
@@ -133,7 +124,7 @@ bash scripts/run_cborealis_emapper.sh
 
 If you use this workflow, cite the associated manuscript and the archived software release.
 
-> Raju M. (2026). *Genome refinement and annotation workflow for Cancer borealis* (Version 1.0.0) . GitHub. https://github.com/murugesanraj/c-borealis-genome-annotation
+> Raju M. Northcutt A. and Schulz D. (2026). *Genome refinement and annotation workflow for Cancer borealis* (Version 1.0.0) . GitHub. https://github.com/murugesanraj/c-borealis-genome-annotation
 
 
 ## License
