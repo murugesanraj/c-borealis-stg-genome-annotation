@@ -129,8 +129,6 @@ bash scripts/run_cborealis_emapper.sh
 `input_C_borealis_STG15_39395.yaml` should identify the genome assembly, the *C. borealis* NCBI Taxonomy ID, and the RNA-seq evidence expected by EGAPx. `run_params.yaml` should contain the run-specific EGAPx parameters. Confirm that configuration paths still resolve after moving the files into `config/`.
 
 
-```
-
 ## Citation
 
 If you use this workflow, cite the associated manuscript and the archived software release.
