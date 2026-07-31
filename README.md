@@ -140,9 +140,7 @@ git describe --tags --always --dirty
 
 If you use this workflow, cite the associated manuscript and the archived software release.
 
-> Raju M. (2026). *Genome refinement and annotation workflow for Cancer borealis* (Version 1.0.0) [Computer software]. GitHub. https://github.com/murugesanraj/c-borealis-genome-annotation
-
-GitHub can also display citation metadata from [`CITATION.cff`](CITATION.cff).
+> Raju M. (2026). *Genome refinement and annotation workflow for Cancer borealis* (Version 1.0.0) . GitHub. https://github.com/murugesanraj/c-borealis-genome-annotation
 
 
 ## License
