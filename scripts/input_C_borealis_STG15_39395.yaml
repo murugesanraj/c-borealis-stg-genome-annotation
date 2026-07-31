@@ -1,0 +1,10 @@
+genome: /build_ref_genome_crab/merged_merged_assembly.fasta
+taxid: 39395
+reads:
+  - - paired_end_library_name1
+    - - /fastq/filtered_fastq/DS01-Cborelis1_L001_R1.fastq.gz
+      - /fastq/filtered_fastq/DS01-Cborelis1_L001_R2.fastq.gz
+annotation_provider: GenBank submitter
+annotation_name_prefix: cancer_borealis
+locus_tag_prefix: c_borealis
+
