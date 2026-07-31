@@ -53,7 +53,7 @@ The exact input filenames, output filenames, software options, databases, and co
 
 ## Data availability
 
-Raw sequencing reads and genome-scale intermediate files are not stored in GitHub. Add the final NCBI BioProject, BioSample, SRA, and genome assembly accession numbers provided in the manuscript:
+Raw sequencing reads and genome-scale intermediate files are not stored in GitHub. 
 
 | Resource | Accession or URL |
 |---|---|
