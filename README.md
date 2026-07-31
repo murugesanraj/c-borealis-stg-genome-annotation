@@ -131,6 +131,3 @@ If you use this workflow, cite the associated manuscript and the archived softwa
 
 The repository code is released under the [MIT License](LICENSE). Third-party software and databases retain their own licenses and terms of use.
 
-## Contact
-
-Open a GitHub issue for questions about the workflow or reproducibility.
