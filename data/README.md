@@ -12,4 +12,3 @@ Expected input categories include:
 - BUSCO lineage datasets; and
 - eggNOG-mapper databases.
 
-For each manuscript-associated input, record the accession, release, file size, and SHA-256 checksum. Never commit human-readable credentials, access tokens, protected data, or private storage paths.
