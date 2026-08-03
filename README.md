@@ -79,7 +79,7 @@ mamba env create -f environment.yml
 conda activate cborealis-annotation
 ```
 
-BRAKER and EGAPx are best installed using their project-specific environment or containers. EGAPx additionally requires Nextflow and a supported container runtime. RepeatMasker, BUSCO, eggNOG-mapper, and DIAMOND require separately downloaded databases.
+BRAKER and EGAPx are best installed using their project-specific environment or containers. EGAPx additionally requires Nextflow and a supported container runtime (Please refer https://github.com/ncbi/egapx for additional details). RepeatMasker, BUSCO, eggNOG-mapper, and DIAMOND require separately downloaded databases.
 
 ## Configuration
 
