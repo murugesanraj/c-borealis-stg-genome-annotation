@@ -59,7 +59,7 @@ Raw sequencing reads and genome-scale intermediate files are not stored in GitHu
 |---|---|
 | NCBI BioProject | `PRJNA1505596` |
 | NCBI BioSample | `SAMN62090974` |
-| STG15 RNA-seq, SRA | `SRR________` |
+| STG15 RNA-seq, SRA | `SRR39941951` |
 | Genome assembly | `GCA_041682235.1` and `GCA_036785275.1` 
 
 ## Installation
