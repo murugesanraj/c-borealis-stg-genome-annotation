@@ -5,7 +5,7 @@ Copy the following executable scripts into this directory:
 - `step_1_edit_merge_assemblies.sh`
 - `step_2_polish_genome_pilon.sh`
 - `step_3_mask_repeatmasker.sh`
-- `step_4_align_RNA-Seq_HISAT2.sh'
+- `step_4_align_RNA_Seq_HISAT2.sh`
 - `step_5_edit_assemble_stringTie.sh`
 - `step_6_edit_gene_prediction_BRAKER.sh`
 - `step_7_predict_transdecoder.sh`
