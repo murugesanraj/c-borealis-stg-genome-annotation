@@ -11,9 +11,9 @@ Reproducible shell scripts and configuration files used to refine the *Cancer bo
 │   └── run_params.yaml
 ├── scripts/
 │   ├── 01_merge_assemblies.sh
-│   ├── 02_align_RNA-Seq_HISAT2.sh
-│   ├── 03_polish_genome_pilon.sh
-│   ├── 04_mask_repeatmasker.sh
+│   ├── 02_polish_genome_pilon.sh 
+│   ├── 03_mask_repeatmasker.sh
+│   ├── 04_align_RNA-Seq_HISAT2.sh
 │   ├── 05_edit_assemble_stringTie.sh
 │   ├── 06_edit_gene_prediction_BRAKER.sh
 │   ├── 07_predict_transdecoder.sh
@@ -38,9 +38,9 @@ The YAML and shell files listed above must be copied from the analysis directory
 | Order | Script | Main role |
 |---:|---|---|
 | 1 | `01_merge_assemblies.sh` | Edit sequence identifiers and merge genome assembly components. |
-| 2 | `02_align_RNA-Seq_HISAT2.sh` | Align STG RNA-seq reads to the genome with HISAT2. |
-| 3 | `03_polish_genome_pilon.sh` | Use aligned reads to polish the genome assembly with Pilon. |
-| 4 | `04_mask_repeatmasker.sh` | Identify and mask repetitive elements with RepeatMasker. |
+| 2 | `02_polish_genome_pilon.sh` | Use aligned reads to polish the genome assembly with Pilon. |
+| 3 | `03_ mask_repeatmasker.sh` | Identify and mask repetitive elements with RepeatMasker. |
+| 4 | `04_align_RNA-Seq_HISAT2.sh` | Align STG RNA-seq reads to the genome with HISAT2. |
 | 5 | `05_edit_assemble_stringTie.sh` | Assemble RNA-seq-supported transcripts with StringTie. |
 | 6 | `06_edit_gene_prediction_BRAKER.sh` | Predict protein-coding genes with BRAKER using external evidence. |
 | 7 | `07_predict_transdecoder.sh` | Predict coding regions and translated proteins with TransDecoder. |
@@ -96,9 +96,9 @@ Run each stage only after checking its configured inputs and confirming that the
 
 ```bash
 bash scripts/01_merge_assemblies.sh
-bash scripts/02_align_RNA-Seq_HISAT2.sh
-bash scripts/03_polish_genome_pilon.sh
-bash scripts/04_mask_repeatmasker.sh
+bash scripts/02_polish_genome_pilon.sh
+bash scripts/03_mask_repeatmasker.sh
+bash scripts/04_align_RNA-Seq_HISAT2.sh
 bash scripts/05_edit_assemble_stringTie.sh
 bash scripts/06_edit_gene_prediction_BRAKER.sh
 bash scripts/07_predict_transdecoder.sh
